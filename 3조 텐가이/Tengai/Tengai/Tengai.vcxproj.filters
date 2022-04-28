@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{2fee3179-6c81-4ca5-a428-66b2e466a436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. CObj">
+      <UniqueIdentifier>{f6283c33-38d0-405b-abf9-0dfc6b81ce0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. CObj\00. CPlayer">
+      <UniqueIdentifier>{23fb9bda-15e3-410f-9e20-ac05175511c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. CObj\01. CMonster">
+      <UniqueIdentifier>{c4f2de1f-fb60-4cc9-a15b-7c431e5a701a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. CObj\02. CBullet">
+      <UniqueIdentifier>{c99afb40-ae9e-44da-b46a-b33a8aead199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. CMainGame">
+      <UniqueIdentifier>{29ae9d1c-81ed-4dff-b3f1-25c55ad69085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. CMainGame\01. CInitPage">
+      <UniqueIdentifier>{ce610ee1-b9c5-4ca8-adfa-a2102b174b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. CMainGame\02. CPaint">
+      <UniqueIdentifier>{139aa2f1-eee2-4b03-a8ae-d0d49b3d2a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Pattern">
+      <UniqueIdentifier>{693e70c0-103d-4007-be31-de6a26f55011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Pattern\CollisionMgr">
+      <UniqueIdentifier>{f9f932ab-43b5-43d2-8dad-6050cebce0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Pattern\CAbstractFactory">
+      <UniqueIdentifier>{f314b77d-0f4c-4183-b72b-1e7cc79cc97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. CObj\03. CItem">
+      <UniqueIdentifier>{f9808e00-6223-4960-b239-4b96aed98541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. CObj\Shield">
+      <UniqueIdentifier>{48f019ec-9cef-48a6-8a5e-97f5d1c70e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. CMainGame\100.ClearPage">
+      <UniqueIdentifier>{2784b65c-e894-421b-a7c5-3845d15adb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. CMainGame\-100.GameOver">
+      <UniqueIdentifier>{8dd9d398-aa95-490c-9c96-7f05710ffe89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tengai.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CAbstractFactory.h">
+      <Filter>98. Pattern\CAbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. CMainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>98. Pattern\CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. CObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. CObj\00. CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="InitPage.h">
+      <Filter>00. CMainGame\01. CInitPage</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint.h">
+      <Filter>00. CMainGame\02. CPaint</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01. CObj\02. CBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. CObj\01. CMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01. CObj\03. CItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>01. CObj\Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearPage.h">
+      <Filter>00. CMainGame\100.ClearPage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>00. CMainGame\-100.GameOver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tengai.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. CMainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>98. Pattern\CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. CObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. CObj\00. CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="InitPage.cpp">
+      <Filter>00. CMainGame\01. CInitPage</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint.cpp">
+      <Filter>00. CMainGame\02. CPaint</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01. CObj\02. CBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. CObj\01. CMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01. CObj\03. CItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>01. CObj\Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearPage.cpp">
+      <Filter>00. CMainGame\100.ClearPage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>00. CMainGame\-100.GameOver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tengai.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Tengai.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
