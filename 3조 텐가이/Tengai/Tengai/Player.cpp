@@ -5,7 +5,7 @@
 #include "Shield.h"
 
 
-
+int test, test2;
 CPlayer::CPlayer()
 {
 }
