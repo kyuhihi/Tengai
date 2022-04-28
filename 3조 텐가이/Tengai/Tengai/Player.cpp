@@ -5,7 +5,11 @@
 #include "Shield.h"
 
 
-int test, test2;
+
+int test;
+
+
+
 CPlayer::CPlayer()
 {
 }
@@ -92,14 +96,14 @@ void CPlayer::Key_Input()
 	if (GetAsyncKeyState('Z'))
 	{
 		if(m_Posin.fAngle >= -1.f)
-			m_Posin.fAngle -= 0.03f; /*¾Þ±ÛÀÌ -60µµº¸´Ù Å©¸é ¾Þ±ÛÀ» - ÇØ¶ó 
-									¾Þ±ÛÀ» -ÇÏ¸é ÆÈÀÌ À§·Î°¡°í
-									¾Þ±ÛÀ» +ÇÏ¸é ÆÈÀÌ ¾Æ·¡·Î°¨ */
+			m_Posin.fAngle -= 0.03f; /*ì•µê¸€ì´ -60ë„ë³´ë‹¤ í¬ë©´ ì•µê¸€ì„ - í•´ë¼ 
+									ì•µê¸€ì„ -í•˜ë©´ íŒ”ì´ ìœ„ë¡œê°€ê³ 
+									ì•µê¸€ì„ +í•˜ë©´ íŒ”ì´ ì•„ëž˜ë¡œê° */
 	}
 
 	if (GetAsyncKeyState('X'))
 	{
-		if (m_Posin.fAngle <= 1.f) //¾Þ±ÛÀÌ 60µµ º¸´Ù ÀÛÀ¸¸é ¾Þ±ÛÀ» ´õÇØ¶ó
+		if (m_Posin.fAngle <= 1.f) //ì•µê¸€ì´ 60ë„ ë³´ë‹¤ ìž‘ìœ¼ë©´ ì•µê¸€ì„ ë”í•´ë¼
 			m_Posin.fAngle += 0.03f;
 		
 	}
@@ -135,7 +139,7 @@ void CPlayer::PickItem(TYPE _Type)
 			float _i = 120.f;
 			for (int i = 1; i < 4; ++i)
 			{
-				m_ShieldList->push_back(CAbstractFactory<CShield>::Create());//½Çµå ºÎÁ·ÇÑ °³¼ö¸¸Å­ »ý¼º				
+				m_ShieldList->push_back(CAbstractFactory<CShield>::Create());//ì‹¤ë“œ ë¶€ì¡±í•œ ê°œìˆ˜ë§Œí¼ ìƒì„±				
 				dynamic_cast<CShield*>(m_ShieldList->back())->SetPlayerInfo(&m_tInfo, _i*i);
 			}
 		}
